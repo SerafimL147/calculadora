@@ -1,13 +1,13 @@
-def add(x, y):
+def numerod(x, y):
    return x + y
 
-def subtract(x, y):
+def subtracao(x, y):
    return x - y
 
-def multiply(x, y):
+def multiplic(x, y):
    return x * y
 
-def divide(x, y):
+def divisao(x, y):
    return x / y
 
 def calculator():
@@ -26,16 +26,16 @@ def calculator():
    choice = input("Escolheu (+/-/*//): ")
 
    if choice == '+':
-      print(num1,"+",num2,"=", add(num1,num2))
+      print(num1,"+",num2,"=", numerod(num1,num2))
 
    elif choice == '-':
-      print(num1,"-",num2,"=", subtract(num1,num2))
+      print(num1,"-",num2,"=", subtracao(num1,num2))
 
    elif choice == '*':
-      print(num1,"*",num2,"=", multiply(num1,num2))
+      print(num1,"*",num2,"=", multiplic(num1,num2))
 
    elif choice == '/':
-      print(num1,"/",num2,"=", divide(num1,num2))
+      print(num1,"/",num2,"=", divisao(num1,num2))
    else:
       print("Operação invalida")
 

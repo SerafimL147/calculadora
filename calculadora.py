@@ -23,7 +23,7 @@ def calculator():
    print("/ divisão")
 
    # Lê a escolha do usuário
-   choice = input("Escolheu (+/-/*//): ")
+   choice = input("Escolha a operação (+/-/*//): ")
 
    if choice == '+':
       print(num1,"+",num2,"=", numerod(num1,num2))
